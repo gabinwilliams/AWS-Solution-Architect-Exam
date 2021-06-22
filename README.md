@@ -27,3 +27,9 @@ This repo will be used for note taking to prep for the certification exam.
 
   # Identity Access Management (IAM)
   1. IAM allows you to manage users and their level of access to the AWS console.
+  MAIN GROUPS:
+    1. USERS - individual
+    2. GROUPS - all users of group inherit group access rules
+    3. POLICIES - JSON object made up of rules and access for groups, roles ect
+    4. ROLES - created and then assigned to give access
+
