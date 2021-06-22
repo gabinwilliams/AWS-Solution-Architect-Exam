@@ -20,4 +20,10 @@ This repo will be used for note taking to prep for the certification exam.
 4. Which statement best describes Availability Zones?
   - Distinct locations from within an AWS region that are engineered to be isolated from failures.
 5. What is an AWS region?
-  - 
+  - A region is a geographical area divided into Availability Zones. Each region contains at least two Availability Zones.
+6. The number of Edge Locations is greater than the number of Availability Zones, which is greater than the number of Regions.
+7. In which of the following is CloudFront content cached?
+  - Edge Location.
+
+  # Identity Access Management (IAM)
+  1. IAM allows you to manage users and their level of access to the AWS console.
