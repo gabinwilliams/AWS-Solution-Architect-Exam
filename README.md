@@ -27,6 +27,7 @@ This repo will be used for note taking to prep for the certification exam.
 
   # Identity Access Management (IAM)
   1. IAM allows you to manage users and their level of access to the AWS console.
+
   MAIN FEATURES:
     - Centralized control of aws account
     - Shared access to account
@@ -42,4 +43,12 @@ This repo will be used for note taking to prep for the certification exam.
     2. GROUPS - all users of group inherit group access rules
     3. POLICIES - JSON object made up of rules and access for groups, roles ect
     4. ROLES - created and then assigned to give access
+
+  FACTS:
+    - IMA is universal.  Doesn't require region lock and is global.
+    - Root account is first account created when setting up AWS.  This account has complete admin access.
+    - New users have NO permissions by DEFAULT
+    - New users are assigned an access key ID and secret access key during account creation.
+        - cannot be used to access the console.  Only access to AWS via terminal or APIs.
+    
 
