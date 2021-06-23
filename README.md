@@ -93,16 +93,35 @@ This repo will be used for note taking to prep for the certification exam.
           1. (S3 Standard)
             - 99.99% availability
             - 99.999999999% durability stored redundantly across multiple facilities on multiple devices and is designed to sustain a loss of 2 facilities concurrently.
+            - Data in Milliseconds
 
           2. (S3 IA or infrequently accessed)
             - Data that is accessed less frequently but needs rapid access when used.
             - Lower fee than S3 Standard
             - Induces a retrieval fee
+            - Data in Milliseconds
 
           3. (S3 One Zone IA)
-          - Data that is accessed less frequently but needs rapid access when used.
-          - Lower Cost than IA
-          - Doesn't require multi-availability-zone data resilience
+            - Data that is accessed less frequently but needs rapid access when used.
+            - Lower Cost than IA
+            - Doesn't require multi-availability-zone data resilience
+            - Data in Milliseconds
+
+          4. (S3 Intelligent Tiering)
+            - Uses machine learning to optimize costs by moving data to the most cost-effective tier option without compromising performance or operational overhead.
+            - Data in Milliseconds
+
+          5. (S3 Glacier)
+            - Secure, Durable, low-cost storage
+            - No limit on amount
+            - prices are competitive or cheaper than on-site solutions
+            - retrieval times configurable from minutes to hours
+            - Data in Min to hours
+
+          6. (S3 Glacier Deep Archive)
+            - Lowest cost option
+            - 12hr retrieval time is acceptable
+            - Data in hrs
 
       2. Life Cycle Management
       3. Versioning
