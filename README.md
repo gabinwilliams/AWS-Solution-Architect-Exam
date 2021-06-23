@@ -89,6 +89,21 @@ This repo will be used for note taking to prep for the certification exam.
 
     6. S3 Features:
       1. Tiered Storage options
+
+          1. (S3 Standard)
+            - 99.99% availability
+            - 99.999999999% durability stored redundantly across multiple facilities on multiple devices and is designed to sustain a loss of 2 facilities concurrently.
+
+          2. (S3 IA or infrequently accessed)
+            - Data that is accessed less frequently but needs rapid access when used.
+            - Lower fee than S3 Standard
+            - Induces a retrieval fee
+
+          3. (S3 One Zone IA)
+          - Data that is accessed less frequently but needs rapid access when used.
+          - Lower Cost than IA
+          - Doesn't require multi-availability-zone data resilience
+
       2. Life Cycle Management
       3. Versioning
       4. Encryption
