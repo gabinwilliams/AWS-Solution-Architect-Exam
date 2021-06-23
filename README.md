@@ -50,5 +50,13 @@ This repo will be used for note taking to prep for the certification exam.
     - New users have NO permissions by DEFAULT
     - New users are assigned an access key ID and secret access key during account creation.
         - cannot be used to access the console.  Only access to AWS via terminal or APIs.
+    - Access Key ID and Secret Access Key may only be used once and will need to be regenerated once used.
+    - ALWAYS setup Multi-access Auth on root account.
+    - Create and customize your own password policies.
+
+    # BILLING ALARM
+
+    1. Navigate to all services, CLOUD WATCH.
+    2. Create a SNS (Simple Notification Service) email notification to warn user if bill crosses certain threshold.
     
 
