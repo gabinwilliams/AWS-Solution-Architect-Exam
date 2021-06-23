@@ -27,6 +27,16 @@ This repo will be used for note taking to prep for the certification exam.
 
   # Identity Access Management (IAM)
   1. IAM allows you to manage users and their level of access to the AWS console.
+  MAIN FEATURES:
+    - Centralized control of aws account
+    - Shared access to account
+    - Granular permissions
+    - Identity federation (login/sign up with google, facebook ect)
+    - Multi-factor Auth
+    - Provide temp access for users/devices
+    - Set up password rotation policy
+    - Supports PCI DSS compliance (credit card ect)
+
   MAIN GROUPS:
     1. USERS - individual
     2. GROUPS - all users of group inherit group access rules
