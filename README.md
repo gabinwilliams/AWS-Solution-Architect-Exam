@@ -1,4 +1,4 @@
-# AWS-Developer-Exam
+# AWS-Solutions-Architect-Exam
 This repo will be used for note taking to prep for the certification exam.
 
 # Region, Availability Zone (AZ), and Edge Location
