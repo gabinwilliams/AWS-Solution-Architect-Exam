@@ -54,9 +54,13 @@ This repo will be used for note taking to prep for the certification exam.
     - ALWAYS setup Multi-access Auth on root account.
     - Create and customize your own password policies.
 
-    # BILLING ALARM
+## Chapter 4
+
+  # BILLING ALARM
 
     1. Navigate to all services, CLOUD WATCH.
     2. Create a SNS (Simple Notification Service) email notification to warn user if bill crosses certain threshold.
+
+    # S3
     
 
