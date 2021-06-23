@@ -78,7 +78,24 @@ This repo will be used for note taking to prep for the certification exam.
       - Sub-resources
           - Access Control Lists
           - Torrent
-    4. S3 Data Consistency
+    4. S3 Data Consistency:
+      1. (Read after Writes consistency) for PUTS of new objects
+      2. (Eventual consistency) for overwrite PUTS and DELETES.... meaning slight delay with overwriting.
+      
+    5. S3 Guarantees from Amazon:
+      1. Built for 99.99% of S3 platform
+      2. Amazon guarantees 99.9% availability
+      3. Amazon guarantees 99.999999999% durability for S3 information. (11 x 9s) meaning it won't be lost.
+
+    6. S3 Features:
+      1. Tiered Storage options
+      2. Life Cycle Management
+      3. Versioning
+      4. Encryption
+      5. MFA to Delete objects
+      6. Secure your data using (Access Control Lists) and (Bucket Policy)
+
+
 
 
     
