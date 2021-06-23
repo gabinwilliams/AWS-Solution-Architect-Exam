@@ -61,6 +61,25 @@ This repo will be used for note taking to prep for the certification exam.
     1. Navigate to all services, CLOUD WATCH.
     2. Create a SNS (Simple Notification Service) email notification to warn user if bill crosses certain threshold.
 
-    # S3
+  # S3
+    - A safe place to store your files.
+    - Object-based... allows you to upload files.
+        - file size anywhere from 0 Bytes to 5 TB.
+    - Unlimited storage
+    - Files are stored in buckets (folder)
+    1. S3 is universal name space.... meaning each bucket name must be unique globally
+      - Bucket names are URL based so that is why it must be unique.
+    2. When you upload a file to S3 you will receive a (HTTP 200 CODE) is the file upload was successful.
+    3. S3 OBJECT:
+      - Key (name)
+      - Value (sequence of bytes)
+      - Version ID (important for versioning)
+      - MetaData (data about data you are storing)
+      - Sub-resources
+          - Access Control Lists
+          - Torrent
+    4. S3 Data Consistency
+
+
     
 
