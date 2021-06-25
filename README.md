@@ -173,6 +173,25 @@ This repo will be used for note taking to prep for the certification exam.
     - 450TB a month @ 0.022 per GB
     - 500TB a month @ 0.021 per GB
 
+  2. S3 Intelligent Tiering - Automatic cost saving with moving around files on access frequency
+    - 50TB a month @ 0.023 per GB
+    - 450TB a month @ 0.022 per GB
+    - 500TB a month @ 0.021 per GB
+    - IA all storage @ 0.0125 per GB
+    - Monitoring and Automation all storage @ 0.0025 per 1,000 objects
+
+  3. S3 Standard IA - for long lived but IA data that needs millisecond access
+    - All storage / month @ 0.0125 per GB
+
+  4. S3 One Zone IA - for re-creatable IA data that needs millisecond access
+    - All storage / month @ 0.01 per GB
+
+  5. S3 Glacier - long-term backups retrieval from 1 min to 12hrs
+    - All storage / month @ 0.004 per GB
+
+  6. S3 Glacier Deep Archive - long-term backups accessed once or twice a year. 12hr retrieval
+    - All storage / month @ 0.00099 per GB
+
 
 
 
