@@ -139,6 +139,7 @@ This repo will be used for note taking to prep for the certification exam.
       6. Secure your data using (Access Control Lists) and (Bucket Policy)
 
   ## S3 EXAM RECAP
+
     1. S3 is object based and allows for file upload.
     2. Files allowed are 0 bytes - 5tb
     3. Unlimited storage
@@ -156,6 +157,12 @@ This repo will be used for note taking to prep for the certification exam.
       - Sub-resources
           - Access Control Lists
           - Torrent
+    11.  **** READ THROUGH S3 FAQs before taking the exam!****
+
+  ## S3 Bucket Recap
+    1. Buckets are global, but when you create one, you assign it a region of choice
+    2. You can replicate buckets using Cross Region Replication
+    3.
 
 
 
