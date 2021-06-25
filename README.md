@@ -138,6 +138,27 @@ This repo will be used for note taking to prep for the certification exam.
       5. MFA to Delete objects
       6. Secure your data using (Access Control Lists) and (Bucket Policy)
 
+  ## S3 EXAM RECAP
+    1. S3 is object based and allows for file upload.
+    2. Files allowed are 0 bytes - 5tb
+    3. Unlimited storage
+    4. Files are stored in buckets
+    5. S3 Bucket is a universal name-space.... means name must be unique globally.
+    6. Bucket name is URL based
+    7. Not suitable to install an OS on because its object based (block-based needed for that)
+    8. On successful upload, you will get an HTTP 200 status code.
+    9. You can turn on MFA Delete (file/object protection)
+    10. S3 OBJECT:
+      - Key (name)
+      - Value (sequence of bytes)
+      - Version ID (important for versioning)
+      - MetaData (data about data you are storing)
+      - Sub-resources
+          - Access Control Lists
+          - Torrent
+
+
+
 
 
 
