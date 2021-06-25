@@ -123,6 +123,15 @@ This repo will be used for note taking to prep for the certification exam.
             - 12hr retrieval time is acceptable
             - Data in hrs
 
+        1. Pricing in S3
+            - Storage amount
+            - Requests
+            - Storage management pricing.... which tier you have selected
+            - Data Transfer
+            - Transfer acceleration (this uses cloudFront/edge locations)
+            - Cross region replication
+
+
       2. Life Cycle Management
       3. Versioning
       4. Encryption
