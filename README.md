@@ -192,6 +192,37 @@ This repo will be used for note taking to prep for the certification exam.
   6. S3 Glacier Deep Archive - long-term backups accessed once or twice a year. 12hr retrieval
     - All storage / month @ 0.00099 per GB
 
+# S3 Security and Encryption
+
+  1.  By DEFAULT all buckets are created (PRIVATE)
+    - You can setup access control for buckets through:
+        - Bucket policies
+        - Access Control Lists
+  2. Buckets can be configured to use access logs which logs all requests made to that bucket
+    - The logs can be sent to another bucket or even another bucket for a different account
+
+  ## Encryption
+
+    1. Encryption in transit or (HTTPS)
+      - SSL/TLS
+
+    2. Encryption at REST (Server Side)
+      - S3 managed keys (SSE S3) - server-side-encryption
+      - AWS Key Management service - keys managed together (SSE KMS)
+      - Server-side Encryption with customer provided keys (SSE-C)
+
+    3. Encryption at REST (Client Side)
+      - Client encrypts files before uploading to S3
+
+# S3 Versioning
+  1. Stores all versions of an object - including all writes and even if you delete the obj
+  2. Great backup tool
+  3. Once enabled VERSIONING CANNOT BE DISABLED, only SUSPENDED
+  4. Integrates with lifeCycle rules
+  5. Versioning MFA Delete functionality - used to provide an extra layer of security
+
+# Life Cycle Management
+  
 
 
 
