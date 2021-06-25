@@ -162,7 +162,16 @@ This repo will be used for note taking to prep for the certification exam.
   ## S3 Bucket Recap
     1. Buckets are global, but when you create one, you assign it a region of choice
     2. You can replicate buckets using Cross Region Replication
-    3.
+    3. Restricting Bucket Access
+        - Bucket Policy - applied across entire bucket
+        - Object Policy - applied only to that object
+        - IAM Policy to users and groups - applies to users and groups
+
+# S3 Storage Costs
+  1. S3 Standard:
+    - 50TB a month @ 0.023 per GB
+    - 450TB a month @ 0.022 per GB
+    - 500TB a month @ 0.021 per GB
 
 
 
