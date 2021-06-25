@@ -222,7 +222,19 @@ This repo will be used for note taking to prep for the certification exam.
   5. Versioning MFA Delete functionality - used to provide an extra layer of security
 
 # Life Cycle Management
+  1. Allows you to automate file movement between the storage tiers
+  2. Can be used in conjunction with versioning
   
+# S3 Object Lock
+
+  1. Write once, read many (WORM).  Helps obj from getting deleted or modified for a fixed amount of time or indefinitely.
+
+  2. Used to meet regulatory requirements that require WORM storage or add an extra layer of protect for modification or deletion 
+
+  ## Object Lock MODES
+    1. Governance mode
+      -
+
 
 
 
