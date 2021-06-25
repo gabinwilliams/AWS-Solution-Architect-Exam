@@ -232,8 +232,20 @@ This repo will be used for note taking to prep for the certification exam.
   2. Used to meet regulatory requirements that require WORM storage or add an extra layer of protect for modification or deletion 
 
   ## Object Lock MODES
+
     1. Governance mode
-      -
+      - Users can't overwrite, delete an obj version, or alter lock settings unless special permissions are given
+    2. Compliance mode
+      - A protected object version can't be overwritten or deleted by any user.
+      - Even the root user can't alter or delete obj until retention is over.
+      3. Retention Period
+        - Protects and obj version for a fixed amount of time
+        - Once retention expires, obj may be deleted or overwritten
+        - Timestamp living in the obj metadata of when retention expires
+      4. Legal hold
+        - Prevents obj version from being deleted or overwritten
+        - Doesn't expire.  Must be removed.
+        - Can be placed or removed freely by users with permission "S3: PutObjectLegalHold"
 
 
 
