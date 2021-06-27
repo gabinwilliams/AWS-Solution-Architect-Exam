@@ -235,9 +235,11 @@ This repo will be used for note taking to prep for the certification exam.
 
     1. Governance mode
       - Users can't overwrite, delete an obj version, or alter lock settings unless special permissions are given
+
     2. Compliance mode
       - A protected object version can't be overwritten or deleted by any user.
       - Even the root user can't alter or delete obj until retention is over.
+
       3. Retention Period
         - Protects and obj version for a fixed amount of time
         - Once retention expires, obj may be deleted or overwritten
@@ -247,6 +249,18 @@ This repo will be used for note taking to prep for the certification exam.
         - Doesn't expire.  Must be removed.
         - Can be placed or removed freely by users with permission "S3: PutObjectLegalHold"
 
+    3. Glacier vault lock
+      - vault lock policy
+      - enable WORM
+      - Lock policy from edits
+      - Once locked, policy can no longer be changed
+
+    ## LOCK MODE EXAM TIPS
+
+      1. S3 object lock 
+        - uses (WORM), Write once, ready many
+        - Obj lock can be applied to individual objects or applied to the entire bucket
+        - Two modes: Governance and compliance
 
 
 
