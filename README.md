@@ -262,6 +262,9 @@ This repo will be used for note taking to prep for the certification exam.
         - Obj lock can be applied to individual objects or applied to the entire bucket
         - Two modes: Governance and compliance
 
+# S3 Performance 
+
+  1. Continue today
 
 
 
